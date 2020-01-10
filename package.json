@@ -1,0 +1,23 @@
+{
+  "name": "api_express_ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-formidable": "^1.2.0",
+    "medoo": "^1.0.0",
+    "mysql": "^2.17.1",
+    "nodemon": "^2.0.2",
+    "sql-query": "^0.1.27"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
